@@ -4,4 +4,4 @@ def reverse_each_word (string)
   reverse_ary.join(" ")
 end
 
-reverse_each_word("Hello there")
+p reverse_each_word("Hello there")

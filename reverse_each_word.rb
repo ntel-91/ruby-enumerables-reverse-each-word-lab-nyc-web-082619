@@ -1,7 +1,7 @@
 def reverse_each_word (string)
  
-  new_ary = string.split(" ").collect{ |i| i.reverse }
-  new_ary.join(" ")
+  reverse_ary = string.split(" ").collect{ |i| i.reverse }
+  reverse_ary.join(" ")
 end
 
 reverse_each_word("Hello there")
